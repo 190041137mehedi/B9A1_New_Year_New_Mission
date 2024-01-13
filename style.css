@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header*/
+header {
+    margin: 50px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(images/Banner\ Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    height: 600px;
+    width: 1320px;
+}
+
+.container {
+    text-align: center;
+    height: 246px;
+    width: 632px;
+}
+
+.container h3 {
+    color: #FFF;
+    font-family: 'Merriweather';
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.container h1 {
+    color: #FFF;
+    font-family: 'Merriweather';
+    font-size: 72px;
+    line-height: 95px;
+}
+
+/* section */
+section {
+    margin: 70px 100px;
+}
+
+.holiday-deals {
+    text-align: center;
+    height: 802.9px;
+    width: 1320px;
+}
+
+.holiday-deals h1 {
+    color: #FF0000;
+    /* width: 383px; */
+    height: 107px;
+    font-size: 88px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 12%;
+}
+
+.holiday-deals p {
+    color: #FF0000;
+    font-size: 24px;
+}
+
+.holiday-deals h3 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: bold;
+    padding: 10px 0px 48px;
+}
+
+/* midnight-party */
+.midnight-party {
+    display: flex;
+    justify-content:space-between;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(images/Vectorrr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    margin-top: 70px;
+}
+
+.midnight-party .year {
+    text-align: center;
+    width: 320px;
+    height: 465px;
+    margin-top: 80px;
+    padding: 4%;
+}
+
+.midnight-party .join {
+    padding: 80px 60px;
+    width: 620px;
+    height: 176px;
+}
+
+.midnight-party .join h3 {
+    color: #FFFFFF;
+    font-family: 'Merriweather';
+    width: 620px;
+    height: 176px;
+    font-size: 64px !important;
+    font-weight: 900;
+}
+
+.midnight-party .join p {
+    padding: 25px 0px;
+    color: #FFFFFF;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.joining{
+    background-color: transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 103px;
+    height: 24px;
+    font-size: medium;
+    font-weight: bold;
+    padding: 0%;
+    margin-top: 68px;
+}
+
+/* placecss  */
+.place {
+    width: 100%;
+    padding: 80px;
+    margin-top: 70px;
+    background: linear-gradient(to bottom, #fdacac, rgba(255, 255, 255, 0));
+    border-radius: 16px;
+    text-align: center;
+    width: 1320px;
+    height: 420px;
+}
+.place .place-box{
+    align-items: center;
+    /* padding-left: 200px; */
+    height: 272px;
+    
+}
+
+button {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+.place h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.place span {
+    color: #FF0000;
+}
+
+.btn-bottom {
+    margin-top: 30px;
+}
+
+.margin-top {
+    margin-top: 100px;
+}
+
+/* coming-soon offer */
+.coming-soon {
+    display: flex;
+    margin-top: 70px;
+    align-items: center;
+    justify-content: space-around;
+    height: 465px;
+    width: 1320px;
+    gap: 50px;
+}
+
+.best-offer {
+    flex: 1;
+}
+
+.coming-soon .radious-pic {
+    padding: 10px;
+    border-radius: 50%;
+    border: 10px solid #F00;
+}
+
+.coming-soon .best-offer h4 {
+    color: #F00;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.coming-soon .best-offer h2 {
+    color: #070211;
+    font-size: 45px;
+    font-weight: 900;
+    padding: 15px 0;
+}
+
+.coming-soon .best-offer h1 {
+    color: #F00;
+    font-size: 50px;
+    font-weight: 900;
+    padding: 15px 0;
+
+}
+
+.coming-soon .best-offer p {
+    color: #07021199;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.coming-soon .best-offer .img-top {
+    margin-top: 15px;
+}
+
+
+/* holidays-sale*/
+
+.holidays-sale {
+    width: 1320px;
+    height: 986px;
+}
+
+.holidays-sale .text-content {
+    text-align: center;
+    padding: 0 100px;
+}
+
+.holidays-sale .text-content h4 {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holidays-sale .text-content h2 {
+    color: #070211;
+    font-size: 60px;
+    font-weight: 900;
+    padding: 15px 0;
+}
+
+.holidays-sale .text-content h2 span {
+    color: #FF0000;
+}
+
+.holidays-sale .text-content p {
+    color: #07021199;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.display-discount {
+    margin: 25px 0;
+}
+
+.group75 {
+    position: relative;
+}
+
+.Rectangle1 {
+    float: right;
+}
+
+.Group75 {
+    position: absolute;
+    right: 278px;
+    top: 50px;
+}
+
+.group44 {
+    position: relative;
+    height: 662px;
+    width: 1320px;
+}
+
+.Rectangle2 {
+    width: 100%;
+}
+
+.Group44 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 796px;
+    height: 662px;
+    opacity: 100%;
+}
+
+/* portfolio-section*/
+.portfolio-section .heading {
+    width: 70%;
+}
+
+.portfolio-section .heading h4 {
+    color: #F00;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.portfolio-section .heading h2 {
+    color: #070211;
+    font-size: 35px;
+    font-weight: 900;
+    padding: 10px 0;
+}
+
+.portfolio-section .heading p {
+    color: #07021199;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.all-portfolio {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.all-portfolio img {
+    width: 390px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.all-portfolio img:hover {
+    outline: 2px solid #070211;
+}
+
+/* newsletter */
+.newsletter{
+    background-color: rgba(255, 0, 0, 0.05);
+    padding: 10%;
+    margin-top: 100px;
+    text-align: center;
+    height: 616px;
+    width: 1320px;
+    border-radius: 16px;
+}
+
+.subscribe{
+    width: 896px;
+    height: 336px;
+    padding-left: 212px;
+}
+.newsletter h2{
+    padding: 25px;
+    font-size: 48px;
+    font-weight: 900;
+}
+p{
+    font-size: 18px;
+}
+.newsletter p{
+    color: #07021199;
+    font-weight: 400;
+}
+
+.input{
+    margin: 25px auto;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 4px #07021144;
+    border-radius: 30px;
+}
+.input input{
+    flex: 1;
+    font-size: 18px;
+    padding: 15px 25px;
+    border: none;
+    outline: none;
+    border-radius: 30px 0 0 30px;
+}
+.btn{
+    border-radius: 0 30px 30px 0;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: rgb(170, 17, 17);
+}
+
+/* footer */
+footer {
+    background-color: #070211;
+    width: 1600px;
+    height: 609px;
+    color: #FFFFFF;
+    padding: 120px 140px;
+}
+
+.footer1{
+    display: flex;
+    width: 1185px;
+    height: 80px;
+    justify-content: space-evenly;
+}
+
+footer .footer1 .address1{
+    width: 375px;
+    height: 80px;
+}
+
+footer .footer1 .address2{
+    height: 80px;
+    padding-left: 562px;
+}
+
+footer .first-foot {
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .first-foot img{
+    margin-right: 10px;
+}
+
+footer .footer1 p {
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 5px;
+}
+.cursor{
+    cursor: pointer;
+}
+
+footer .footer2 {
+    text-align: center;
+    margin: 50px 0;
+}
+
+hr{
+    margin: 50px 0;
+    border: 1px solid #272627;
+}
+
+footer .footer2{
+    /* width: 328px; */
+    height: 64px;
+}
+
+footer .footer3{
+    display: flex;
+}
+
+footer .footer2 img {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+footer .footer3 { 
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .footer3 p {
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 500;
+}
